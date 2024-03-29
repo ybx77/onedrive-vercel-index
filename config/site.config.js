@@ -2,7 +2,7 @@ module.exports = {
   userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'duoxiaonian@yunwu50.onmicrosoft.com',
   icon: '/icons/128.png',
 
- <script defer src="https://vercount.one/js"></script>
+
   kvPrefix: process.env.KV_PREFIX || '',
 
  
