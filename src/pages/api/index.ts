@@ -12,7 +12,7 @@ import { runCorsMiddleware } from './raw'
 
 const basePath = pathPosix.resolve('/', siteConfig.baseDirectory)
 const clientSecret = revealObfuscatedToken(apiConfig.obfuscatedClientSecret)
-
+const exit = require('../../../config/site.config.js');
 /**
  * Encode the path of the file relative to the base directory
  *
