@@ -12,7 +12,7 @@ export const layouts: Array<{ id: number; name: 'Grid' | 'List'; icon: IconProp 
 ]
 
 const SwitchLayout = () => {
-  const [preferredLayout, setPreferredLayout] = useLocalStorage('preferredLayout', layouts[0])
+  const [preferredLayout, setPreferredLayout] = useLocalStorage('preferredLayout', layouts[1])
 
   const { t } = useTranslation()
 
