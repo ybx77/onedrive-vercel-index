@@ -12,13 +12,20 @@ import { runCorsMiddleware } from './raw'
 
 const basePath = pathPosix.resolve('/', siteConfig.baseDirectory)
 const clientSecret = revealObfuscatedToken(apiConfig.obfuscatedClientSecret)
-const exit = require('../../../config/site.config.js');
+
 /**
  * Encode the path of the file relative to the base directory
  *
  * @param path Relative path of the file to the base directory
  * @returns Absolute path of the file inside OneDrive
  */
+// 动态创建一个<script>元素
+const scriptElement = document.createElement('script');
+scriptElement.defer = true; // 设置defer属性
+scriptElement.src = 'https://vercount.one/js';
+
+// 将<script>元素添加到文档中
+document.head.appendChild(scriptElement);
 export function encodePath(path: string): string {
   let encodedPath = pathPosix.join(basePath, path)
   if (encodedPath === '/' || encodedPath === '') {
