@@ -6,7 +6,7 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
  
-  title: "朵小念私人云",
+  title: "二元世界",
 
   
   baseDirectory: '/云盘',
