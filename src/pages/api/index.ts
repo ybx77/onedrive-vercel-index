@@ -12,12 +12,7 @@ import { runCorsMiddleware } from './raw'
 
 const basePath = pathPosix.resolve('/', siteConfig.baseDirectory)
 const clientSecret = revealObfuscatedToken(apiConfig.obfuscatedClientSecret)
-document.addEventListener('DOMContentLoaded', () => {
-  const script = document.createElement('script');
-  script.async = true;
-  script.src = '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
-  document.head.appendChild(script);
-});
+
 /**
  * Encode the path of the file relative to the base directory
  *
