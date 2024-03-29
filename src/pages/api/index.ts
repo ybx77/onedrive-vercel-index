@@ -19,10 +19,6 @@ const clientSecret = revealObfuscatedToken(apiConfig.obfuscatedClientSecret)
  * @param path Relative path of the file to the base directory
  * @returns Absolute path of the file inside OneDrive
  */
-const script = document.createElement('script');
-script.defer = true;
-script.src = 'https://vercount.one/js';
-document.body.appendChild(script);
 
 
 export function encodePath(path: string): string {
