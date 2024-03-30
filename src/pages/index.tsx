@@ -25,14 +25,6 @@ export default function Home() {
           <FileListing />
         </div>
 
-        
-    <template>
-  <a-float-button @click="handleClick" />
-</template>
-<script setup>
-const handleClick = () => console.log('click');
-</script>
-
 
 
       </main>
