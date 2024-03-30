@@ -25,15 +25,6 @@ export default function Home() {
           <FileListing />
         </div>
         
-        var button = document.createElement("button");
-button.innerHTML = "悬浮按钮";
-button.style.position = "fixed";
-button.style.bottom = "20px";
-button.style.right = "20px";
-button.onclick = function() {
-  alert("点击了悬浮按钮");
-};
-document.body.appendChild(button);
 
       </main>
 
