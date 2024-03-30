@@ -26,10 +26,10 @@ export default function Home() {
         </div>
 
         
-        <template>
+    <template>
   <a-float-button @click="handleClick" />
 </template>
-<script lang="ts" setup>
+<script setup>
 const handleClick = () => console.log('click');
 </script>
 
