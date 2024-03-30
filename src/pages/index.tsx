@@ -24,10 +24,10 @@ export default function Home() {
           </nav>
           <FileListing />
         </div>
-  <div className="fixed bottom-4 right-4">
-    {/* 这里添加你的悬浮按钮的代码 */}
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Floating Button
+  <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+    
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"  onClick={() => window.location.href = 'https://pd.qq.com/s/dh3log6qj'}>
+      QQ
     </button>
   </div>
 
