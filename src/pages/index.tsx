@@ -25,15 +25,19 @@ export default function Home() {
           <FileListing />
         </div>
 
-<div>
-<template>
-  <a-float-button @click="handleClick" />
-</template>
-<script setup>
-const handleClick = () => console.log('click');
-</script>
-</div>
+<div id="container" style="padding: 24px" />
+        
+         
 
+ <script> const mountNode = document.getElementById('container');</script>
+       <script>
+       const { createRoot } = ReactDOM;
+
+const {  FloatButton  } = antd;
+const App = () => <FloatButton onClick={() => console.log('onClick')} />;
+const ComponentDemo = App;
+createRoot(mountNode).render(<ComponentDemo />);
+       </script> 
       </main>
 
       <Footer />
