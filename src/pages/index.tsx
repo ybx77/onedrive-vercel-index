@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>{siteConfig.title}</title>
       </Head>
-<script defer src="https://vercount.one/js"></script>
+<script defer src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
       <main className="flex w-full flex-1 flex-col bg-gray-50 dark:bg-gray-800">
         <Navbar />
         <div className="mx-auto w-full max-w-5xl py-4 sm:p-4">
