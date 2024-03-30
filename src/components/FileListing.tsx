@@ -382,7 +382,7 @@ const FileListing: FC<{ query?: ParsedUrlQuery }> = ({ query }) => {
 
         {readmeFile && (
           <div className="mt-4">
-            <MarkdownPreview file={readmeFile} path={path} standalone={false} />
+            <MarkdownPreview file={readmeFile} path={path} standalone={true} />
           </div>
         )}
       </>
@@ -396,7 +396,7 @@ const FileListing: FC<{ query?: ParsedUrlQuery }> = ({ query }) => {
     if (previewType) {
       switch (previewType) {
         case preview.image:
-          return <ImagePreview file={file} />
+          return <ImagePreview file={file} path={path} />
 
         case preview.text:
           return <TextPreview file={file} />
