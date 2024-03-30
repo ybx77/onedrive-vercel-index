@@ -156,7 +156,7 @@ const FileListing: FC<{ query?: ParsedUrlQuery }> = ({ query }) => {
 
   const router = useRouter()
   const hashedToken = getStoredToken(router.asPath)
-  const [layout, _] = useLocalStorage('preferredLayout', layouts[0])
+  const [layout, _] = useLocalStorage('preferredLayout', layouts[1])
 
   const { t } = useTranslation()
 
