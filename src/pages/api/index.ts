@@ -12,15 +12,7 @@ import { runCorsMiddleware } from './raw'
 
 const basePath = pathPosix.resolve('/', siteConfig.baseDirectory)
 const clientSecret = revealObfuscatedToken(apiConfig.obfuscatedClientSecret)
-//
-const { createRoot } = ReactDOM;
 
-const {  FloatButton  } = antd;
-const App = () => <FloatButton onClick={() => console.log('onClick')} />;
-const ComponentDemo = App;
-
-
-createRoot(mountNode).render(<ComponentDemo />);
 /**
  * Encode the path of the file relative to the base directory
  *
