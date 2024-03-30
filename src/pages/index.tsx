@@ -7,16 +7,7 @@ import FileListing from '../components/FileListing'
 import Footer from '../components/Footer'
 import Breadcrumb from '../components/Breadcrumb'
 import SwitchLayout from '../components/SwitchLayout'
-//ceshi 
-const { createRoot } = ReactDOM;
 
-const {  FloatButton  } = antd;
-const App = () => <FloatButton onClick={() => console.log('onClick')} />;
-const ComponentDemo = App;
-
-
-createRoot(mountNode).render(<ComponentDemo />);
-//ceshi
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-white dark:bg-gray-900">
