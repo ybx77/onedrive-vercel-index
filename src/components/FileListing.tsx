@@ -203,7 +203,7 @@ const FileListing: FC<{ query?: ParsedUrlQuery }> = ({ query }) => {
     const readmeFile = folderChildrena.find(c => c.name.toLowerCase() === 'readme.md')
 
     // Filtered file list helper
-    const getFiles = () => folderChildren.filter(c => !c.folder && c.name !== '.password')
+    const getFiles = () => folderChildrena.filter(c => !c.folder && c.name !== '.password')
 
     // File selection
     const genTotalSelected = (selected: { [key: string]: boolean }) => {
