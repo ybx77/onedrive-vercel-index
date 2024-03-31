@@ -7,7 +7,7 @@ import FileListing from '../components/FileListing'
 import Footer from '../components/Footer'
 import Breadcrumb from '../components/Breadcrumb'
 import SwitchLayout from '../components/SwitchLayout'
-import { SpeedInsights } from "@vercel/speed-insights/"
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-white dark:bg-gray-900">
