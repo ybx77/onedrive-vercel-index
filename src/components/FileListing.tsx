@@ -196,8 +196,9 @@ const FileListing: FC<{ query?: ParsedUrlQuery }> = ({ query }) => {
   if ('folder' in responses[0]) {
     // Expand list of API returns into flattened file data
     const folderChildren1 = [].concat(...responses.map(r => r.folder.value)) as OdFolderObject['value']
+    console.log(responses);
     //删除readme
-    const folderChildren = responses.filter(item => item !=='readme.md');
+   // const folderChildren = responses.filter(item => item !=='readme.md');
     // Find README.md file to render
     const readmeFile = folderChildren.find(c => c.name.toLowerCase() === 'readme.md')
 
