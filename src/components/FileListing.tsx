@@ -200,7 +200,7 @@ const FileListing: FC<{ query?: ParsedUrlQuery }> = ({ query }) => {
     const folderChildren = folderChildrena.filter(item => item.name !== 'README.md');
     
     // Find README.md file to render
-    const readmeFile = folderChildren.find(c => c.name.toLowerCase() === 'readme.md')
+    const readmeFile = folderChildrena.find(c => c.name.toLowerCase() === 'readme.md')
 
     // Filtered file list helper
     const getFiles = () => folderChildren.filter(c => !c.folder && c.name !== '.password')
