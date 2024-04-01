@@ -83,7 +83,7 @@ export const ChildName: FC<{ name: string; folder?: boolean }> = ({ name, folder
 export const ChildIcon: FC<{ child: OdFolderChildren }> = ({ child }) => {
   const { render, emoji } = renderEmoji(child.name)
   return render ? (
-    <span>{emoji ? emoji[0] : '📁'}</span>
+    <span>{emoji ? emoji[0] : ''}</span>
   ) : (
     <FontAwesomeIcon icon={child.file ? getFileIcon(child.name, { video: Boolean(child.video) }) : ['far', 'folder']} />
   )
