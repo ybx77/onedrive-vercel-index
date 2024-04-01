@@ -17,11 +17,11 @@ module.exports = {
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
   // googleFontSans - the sans serif font used in onedrive-vercel-index.
-  googleFontSans: 'Inter',
+  googleFontSans: '',
   // googleFontMono - the monospace font used in onedrive-vercel-index.
-  googleFontMono: 'Fira Mono',
+  googleFontMono: ' ',
   // googleFontLinks -  an array of links for referencing the google font assets.
-  googleFontLinks: ['https://www.unpkg.com/font-online/fonts/SourceHanSans/SourceHanSans-Normal.otf'],
+  googleFontLinks: [''],
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
