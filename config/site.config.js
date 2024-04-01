@@ -30,7 +30,10 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/画师选集/胡麻乃りお/18+','/画师选集/Budesonide/18+','/画师选集/箩莉即正义/18+','/画师选集/魔法書夫人/18+','/画师选集/千夜QYS3/18+','/画师选集/室埴 ポコ/18+','/画师选集/無惑桑/18+','/画师选集/桐野/18+','/画师选集/藤ちょこ（藤原）/18+'],
+  protectedRoutes: ['/画师选集/胡麻乃りお/18+','/画师选集/Budesonide/18+','/画师选集/箩莉即正义/18+',
+                    '/画师选集/魔法書夫人/18+','/画师选集/千夜QYS3/18+','/画师选集/室埴 ポコ/18+',
+                    '/画师选集/無惑桑/18+','/画师选集/桐野/18+','/画师选集/藤ちょこ（藤原）/18+',
+                   '/画师选集/YogurtWZI/18+','/画师选集/グムラット Goomrrat/18+','/画师选集/パール/18+',],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: '',
