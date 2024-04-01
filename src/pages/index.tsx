@@ -22,13 +22,8 @@ export default function Home() {
             <SwitchLayout />
           </nav>
           <FileListing />
+           <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
         </div>
-  <div className="fixed bottom-6 right-4">
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <button className="bg-white hover:bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded-full shadow"  onClick={() => window.location.href = 'https://pd.qq.com/s/dh3log6qj'}>
-      QQ
-    </button>
-  </div>
 
       </main>
 
