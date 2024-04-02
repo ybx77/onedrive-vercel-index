@@ -197,13 +197,13 @@ const FileListing: FC<{ query?: ParsedUrlQuery }> = ({ query }) => {
     // Expand list of API returns into flattened file data
     const folderChildrena = [].concat(...responses.map(r => r.folder.value)) as OdFolderObject['value']
     
-    const folderChildren = folderChildrena.filter(item => item.name !== 'README.md');
-    const folderChildren = folderChildren.filter(item => item.name !== '.password');
+    const folderChildrenb = folderChildrena.filter(item => item.name !== 'README.md');
+    const folderChildren = folderChildrenb.filter(item => item.name !== '.password');
     // Find README.md file to render
     const readmeFile = folderChildrena.find(c => c.name.toLowerCase() === 'readme.md')
 
     // Filtered file list helper
-    const getFiles = () => folderChildren.filter(c => !c.folder && c.name !== '.password')
+    const getFiles = () => folderChildrena.filter(c => !c.folder && c.name !== '.password')
 
     // File selection
     const genTotalSelected = (selected: { [key: string]: boolean }) => {
