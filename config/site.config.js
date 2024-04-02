@@ -12,7 +12,7 @@ module.exports = {
   baseDirectory: '/云盘',
 
 
-  maxItems: 50,
+  maxItems: 20,
 
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
